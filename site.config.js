@@ -51,7 +51,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: "varun7244/thedarkunit-2",
       "issue-term": "og:title",
