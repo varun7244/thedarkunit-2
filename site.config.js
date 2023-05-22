@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "TDU",
+    title: "THE DARK UNIT",
     description: "Welcome to The Dark Unit!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
