@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "THE DARK UNIT",
+    name: "THE DARK UNIT-up",
     image: "/tduavatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "0000 No-Op",
     bio: "In the Journey of the Dark Magic",
@@ -19,9 +19,9 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "THE DARK UNIT",
+    title: "THE DARK UNIT-down",
     description: "Welcome to The Dark Unit!",
-    theme: "auto", // ['light', 'dark', 'auto']
+    theme: "dark", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
