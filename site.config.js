@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "THE DARK UNIT",
-    image: "/tduavatar.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/tduavatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "0000 No-Op",
     bio: "In the Journey of the Dark Magic",
     email: "0x114b@gmail.com",
