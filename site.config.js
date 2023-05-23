@@ -1,14 +1,14 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "THE DARK UNIT-up",
+    name: "0perator",
     image: "/tduavatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "0000 No-Op",
     bio: "In the Journey of the Dark Magic",
     email: "0x114b@gmail.com",
     linkedin: "",
-    twitter: "the_darkunit",
-    github: "",
+    twitter: "th3darkun1t",
+    github: "th3darkun1t",
     instagram: "",
   },
   projects: [
@@ -19,7 +19,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "THE DARK UNIT-down",
+    title: "The Dark Unit",
     description: "Welcome to The Dark Unit!",
     theme: "dark", // ['light', 'dark', 'auto']
   },
