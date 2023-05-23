@@ -21,7 +21,7 @@ const CONFIG = {
   blog: {
     title: "The Dark Unit",
     description: "Welcome to The Dark Unit!",
-    theme: "dark", // ['light', 'dark', 'auto']
+    theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
