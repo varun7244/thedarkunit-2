@@ -7,6 +7,7 @@ const CONFIG = {
     bio: "In the Journey of the Dark Magic",
     email: "0x114b@gmail.com",
     linkedin: "",
+    twitter: "the_darkunit",
     github: "",
     instagram: "",
   },
