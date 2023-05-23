@@ -5,7 +5,7 @@ const CONFIG = {
     image: "/tduavatar.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "0000 No-Op",
     bio: "In the Journey of the Dark Magic",
-    Email: "0x114b@gmail.com",
+    email: "0x114b@gmail.com",
     linkedin: "",
     github: "",
     instagram: "",
