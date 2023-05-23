@@ -12,6 +12,13 @@ const CONFIG = {
     instagram: "",
   },
   
+    projects: [
+    {
+      name: `thedarkunit-2`,
+      href: "https://github.com/varun7244/morethan-log",
+    },
+  ],
+  
   // blog setting (required)
   blog: {
     title: "THE DARK UNIT",
