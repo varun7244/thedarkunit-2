@@ -11,12 +11,7 @@ const CONFIG = {
     github: "th3darkun1t",
     instagram: "",
   },
-  projects: [
-    {
-      name: `thedarkunit-2`,
-      href: "https://github.com/varun7244/thedarkunit-2",
-    },
-  ],
+  
   // blog setting (required)
   blog: {
     title: "The Dark Unit",
