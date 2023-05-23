@@ -5,7 +5,7 @@ import React from "react"
 const d = new Date()
 const y = d.getFullYear()
 const from = +CONFIG.since
-const name = "The Dark Unit"
+
 
 type Props = {
   className?: string
@@ -20,7 +20,7 @@ const Footer: React.FC<Props> = ({ className }) => {
         className="text-gray-500 text-sm mt-3"
         rel="noreferrer"
       >
-        © name {from === y || !from ? y : `${from} - ${y}`}
+        © The Dark Unit {from === y || !from ? y : `${from} - ${y}`}
       </a>
     </div>
   )
