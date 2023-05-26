@@ -1,6 +1,13 @@
 import { CONFIG } from "site.config"
 import Image from "next/image"
 import React from "react"
+import {
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineGithub,
+  AiOutlineMail,
+  AiFillLinkedin,
+} from "react-icons/ai"
 
 type Props = {
   className?: string
