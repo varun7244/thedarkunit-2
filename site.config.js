@@ -6,9 +6,9 @@ const CONFIG = {
     role: "",
     bio: "From the Depths of Darkness",
     email: "th3darkun1t@gmail.com",
-    linkedin: "",
+    linkedin: "boomboom",
     twitter: "th3darkun1t",
-    github: "th3darkun1t",
+    github: "",
     instagram: "",
   },
   
