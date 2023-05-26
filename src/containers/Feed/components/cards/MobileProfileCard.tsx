@@ -37,26 +37,7 @@ const MobileProfileCard: React.FC<Props> = () => {
           </div>
         </div>
         { <div className="flex">
-          {CONFIG.profile.github && (
-            <a
-              href={`https://github.com/${CONFIG.profile.github}`}
-              rel="noreferrer"
-              target="_blank"
-              className="p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white "
-            >
-              <AiOutlineGithub className="text-2xl" />
-            </a>
-          )}
-          {CONFIG.profile.instagram && (
-            <a
-              href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
-              rel="noreferrer"
-              target="_blank"
-              className="p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
-            >
-              <AiOutlineInstagram className="text-2xl" />
-            </a>
-          )}
+
           {CONFIG.profile.email && (
             <a
               href={`mailto:${CONFIG.profile.email}`}
@@ -75,6 +56,16 @@ const MobileProfileCard: React.FC<Props> = () => {
               className="  overflow-hidden p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
             >
               <AiFillLinkedin className="text-2xl flex-shrink-0" />
+            </a>
+          )}
+          {CONFIG.profile.twitter && (
+            <a
+              href={`https://www.twitter.com/${CONFIG.profile.twitter}`}
+              rel="noreferrer"
+              target="_blank"
+              className="  overflow-hidden p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
+            >
+              <AiOutlineTwitter className="text-2xl flex-shrink-0" />
             </a>
           )}
         </div> }
