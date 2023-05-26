@@ -69,8 +69,8 @@ const MobileProfileCard: React.FC<Props> = () => {
               <AiOutlineTwitter className="text-2xl flex-shrink-0" />
             </a>
           )}
-		</div>
         </div> }
+		</div>
       </div>
     </div>
   )
