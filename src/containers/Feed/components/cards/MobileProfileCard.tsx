@@ -38,6 +38,7 @@ const MobileProfileCard: React.FC<Props> = () => {
         </div>
 
       </div>
+	  <div className="p-2 rounded-2xl bg-white dark:bg-zinc-700 mb-4">
 	  <div className="h-fit dark:text-white">
         { <div className="flex">
 
@@ -72,6 +73,7 @@ const MobileProfileCard: React.FC<Props> = () => {
             </a>
           )}
         </div> }
+		</div>
 		</div>
     </div>
   )
