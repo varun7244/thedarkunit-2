@@ -36,7 +36,9 @@ const MobileProfileCard: React.FC<Props> = () => {
             <div className="text-sm">{CONFIG.profile.bio}</div>
           </div>
         </div>
-		<div className="h-fit dark:text-white">
+
+      </div>
+	  <div className="h-fit dark:text-white">
         { <div className="flex">
 
           {CONFIG.profile.email && (
@@ -71,7 +73,6 @@ const MobileProfileCard: React.FC<Props> = () => {
           )}
         </div> }
 		</div>
-      </div>
     </div>
   )
 }
