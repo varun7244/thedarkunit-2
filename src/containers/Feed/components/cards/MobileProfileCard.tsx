@@ -16,7 +16,7 @@ type Props = {
 const MobileProfileCard: React.FC<Props> = () => {
   return (
     <div className="block lg:hidden">
-      <div className="p-1 mb-3 dark:text-white">💻 Profilerr</div>
+      <div className="p-1 mb-3 dark:text-white">💻 Profile</div>
       <div className="p-2 rounded-2xl bg-white dark:bg-zinc-700 mb-4">
         <div className="flex items-center gap-2">
           <Image
@@ -38,30 +38,10 @@ const MobileProfileCard: React.FC<Props> = () => {
         </div>
 
       </div>
-	  <div className="p-2 rounded-2xl bg-white dark:bg-zinc-700 mb-4">
+	  <div className="p-0 rounded-2xl bg-white dark:bg-zinc-700 mb-6">
 	  <div className="h-fit dark:text-white">
         { <div className="flex">
 
-          {CONFIG.profile.email && (
-            <a
-              href={`mailto:${CONFIG.profile.email}`}
-              rel="noreferrer"
-              target="_blank"
-              className="  overflow-hidden p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
-            >
-              <AiOutlineMail className="text-2xl flex-shrink-0" />
-            </a>
-          )}
-          {CONFIG.profile.linkedin && (
-            <a
-              href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-              rel="noreferrer"
-              target="_blank"
-              className="  overflow-hidden p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
-            >
-              <AiFillLinkedin className="text-2xl flex-shrink-0" />
-            </a>
-          )}
           {CONFIG.profile.twitter && (
             <a
               href={`https://www.twitter.com/${CONFIG.profile.twitter}`}
@@ -72,6 +52,30 @@ const MobileProfileCard: React.FC<Props> = () => {
               <AiOutlineTwitter className="text-2xl flex-shrink-0" />
             </a>
           )}
+		  
+		  {CONFIG.profile.linkedin && (
+            <a
+              href={`https://www.linkedin.com/company/${CONFIG.profile.linkedin}`}
+              rel="noreferrer"
+              target="_blank"
+              className="  overflow-hidden p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
+            >
+              <AiFillLinkedin className="text-2xl flex-shrink-0" />
+            </a>
+          )}
+		  
+          {CONFIG.profile.email && (
+            <a
+              href={`mailto:${CONFIG.profile.email}`}
+              rel="noreferrer"
+              target="_blank"
+              className="  overflow-hidden p-3 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer text-gray-500 dark:text-white"
+            >
+              <AiOutlineMail className="text-2xl flex-shrink-0" />
+            </a>
+          )}
+
+
         </div> }
 		</div>
 		</div>
